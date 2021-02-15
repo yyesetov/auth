@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+  datasource:
+    url: jdbc:postgresql://10.202.42.172:5432/postgres
+    username: postgres
+    password: fEY++4e$
+    driver-class-name: org.postgresql.Driver
+
+security:
+  jwt:
+    token:
+      secret-key: sc
+      expire-length: 150
