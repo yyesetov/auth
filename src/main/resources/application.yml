@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8084
 
 spring:
   jpa:
@@ -16,4 +16,3 @@ security:
   jwt:
     token:
       secret-key: sc
-      expire-length: 150
