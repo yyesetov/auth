@@ -15,4 +15,4 @@ spring:
 security:
   jwt:
     token:
-      secret-key: sc
+      secret-key: sitCenter
